@@ -2,9 +2,12 @@
   "name": "eCom",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://casneil.github.io/EComm/",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +16,7 @@
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
+    "gh-pages": "^2.2.0",
     "multer": "^1.4.2",
     "nodemon": "^2.0.3"
   }
