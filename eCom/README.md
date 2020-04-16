@@ -15,7 +15,7 @@ After cloning this repository navigate to the root directory and run the followi
 
 ### `npm init` to install node_modules
 
-### `nom run dev` to start the application
+### `npm run dev` to start the application
 
 ## Finally
 
