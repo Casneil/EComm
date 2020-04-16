@@ -2,12 +2,9 @@
   "name": "eCom",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://casneil.github.io/EComm/",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
