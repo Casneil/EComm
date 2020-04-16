@@ -11,7 +11,7 @@ const app = express();
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieSession({ keys: ["kdjhs6gurop9ihfb7bs09gf"] }));
-const port = 3000;
+const port = process.event.PORT || 3000;
 
 app.use(authRouter);
 app.use(adminProductsRouter);
